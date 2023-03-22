@@ -22,7 +22,8 @@ class School:
         for student in self.students:
             print(student.name + " " + student.last_name + " - " + str(student.average))
 
-
+    def example_for_git(self):
+        return
 
 
 
