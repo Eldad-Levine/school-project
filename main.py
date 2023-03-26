@@ -12,7 +12,6 @@ class School:
                 grades_summary = grades_summary + subject.grade
             average = grades_summary / len(student.subjects)
 
-            print(student.name + " " + student.last_name + " - " + str(average))
         for student in self.students:
             print(student.name + " " + student.last_name + " - " + str(student.average))
 
